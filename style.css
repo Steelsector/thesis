@@ -1,0 +1,305 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-color: #1F88A7;
+	margin: 0px;
+	padding: 0px;
+}
+
+td {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+input{
+	font-size: 12px;
+}
+
+body a{
+	text-decoration: none;
+}
+
+#loginbox input[type=text], [type=password]{
+	width: 200px;
+}
+
+#loginbox input[type=submit]{
+	background-color: #41E5F7;
+	width: 100px;
+	color: #fff;
+}
+
+#container{
+	width: 980px;
+	background-color: #eee;
+	margin: 0 auto;
+
+}
+
+#content{
+	background-color: #4F4F7D;
+	padding: 20px;
+	overflow: hidden;
+	color: #FFF9AE;
+}
+
+#header{
+	background-image: url("../img/header.jpg");
+	width:980px;
+	height: 307px;
+}
+
+#footer{
+	padding: 10px 5px 10px 5px;
+	background-color: #4F4F7D;
+}
+
+#adminleft{
+	width: 240px;
+	display: block;
+	float: left;
+	background: #67C7E2;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#adminleft a {
+	text-decoration: none;
+	color: #000;
+}
+
+#admincenter{
+	width: 240px;
+	background: #67C7E2;
+	float: left;
+	display: block;
+	margin: 0px 0px 0px 6px;
+	padding: 5px;
+}
+
+#adminright{
+	width: 410px;
+	background: #67C7E2;
+	float: right;
+	display: block;
+	padding: 5px;
+
+}
+#adminrss{
+	width: 680px;
+	float: left;
+	display: block;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#adminrss input[type=submit]{
+	float: left;
+}
+
+#rss_list{
+	width: 340px;
+	float: right;
+	overflow: hidden;
+	text-align: left;
+	display: block;
+	padding: 5px;
+}
+
+#rss_list input[type=submit]{
+	float: right;
+}
+
+#category{
+	width: 200px;
+	text-align: left;
+	padding-left: 15px;
+	line-height: 28px;	
+}
+
+#category input[type=submit]{
+	float: right;
+}
+
+#categories input[type=text]{
+	float: left;
+	margin:3px 10px 0px 0px;
+}
+
+#article_item{
+	width: 200px;
+	text-align: left;
+	float:right;
+}
+
+#article_item input[type=submit]{
+	float: right;
+}
+
+#leftside{
+	width: 240px;
+	float: left;
+	overflow: hidden;
+}
+
+#rightside{
+	width: 640px;
+	float: right;
+	overflow: hidden;
+	display: block;
+}
+
+#rightside a {
+	text-decoration: none;
+	font-size: 1.05em;
+	color:#fff;
+}
+
+.title{
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.05em;
+	background-color: #67C7E2;
+	margin:0px 0px 20px 0px;
+	padding: 5px;
+	border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	display: block;
+}
+
+#articles{
+	text-align: left;
+}
+
+#text{
+	width: 460px;
+	height: 350px;
+}
+
+.post{
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px solid black;
+	padding:0px 0px 10px 0px;
+	overflow: hidden;
+}
+
+.menuitem{
+	margin:5px 0px 5px 0px;
+}
+
+.menuitem a {
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.05em;
+	background-color: #67C7E2;
+	margin:0px 0px 20px 0px;
+	padding: 20px;
+	border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	display: block;
+
+}
+
+.menuitem a:hover{
+	background-color: #000;
+}
+
+.home a{
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.05em;
+	background-color: #67C7E2;
+	margin:0px 0px 20px 0px;
+	padding: 20px;
+	border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	display: block;
+
+}
+
+.home a:hover{
+	background-color: #000;
+}
+
+.menu{
+	background-color: #67C7E2;
+	margin:0px 0px 20px 0px;
+	padding: 20px;
+	border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	display: block;
+}
+
+.menubox{
+	overflow: hidden;
+	display: block;
+}
+
+.fb-like-box{
+	background-color: #67C7E2;
+	color:#fff;
+	
+}
+
+.next a{
+	color: #fff;
+	background-color: #67C7E2;
+	margin:0px 0px 10px 0px;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	float: right;
+	width: 80px;
+}
+
+.next a:hover{
+	background-color: #000;
+}
+
+.new{
+	float:right;
+	color: #fff;
+	background-color: #67C7E2;
+	margin:0px 0px 10px 0px;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	width: 80px;
+}
+
+.new:hover{
+	background-color: #000;
+}
+
+.old{
+	color: #fff;
+	background-color: #67C7E2;
+	margin:0px 0px 10px 0px;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	float: left;
+	width: 80px;
+}
+
+.old:hover{
+	background-color: #000;
+}
+
+#twitt{
+	padding: 5px;
+}
+
